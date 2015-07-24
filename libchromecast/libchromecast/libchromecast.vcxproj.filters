@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Channels">
+      <UniqueIdentifier>{c1fb8ef9-0bad-46a9-9c79-8c661f380ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{81be25b1-e512-48fc-912e-5b8fa90a193b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Connection">
+      <UniqueIdentifier>{f9f14bd3-97b8-4cbc-b304-08e00af3cbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Applications">
+      <UniqueIdentifier>{0082ad89-55d7-432f-a2bc-f3b19dacb8c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="google_cast_message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="json_message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="cast_message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver_messages.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_channel.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="heartbeat_channel.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="receiver_channel.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="default_media_player.h">
+      <Filter>Applications</Filter>
+    </ClInclude>
+    <ClInclude Include="sender_application.h">
+      <Filter>Applications</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_factory.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="media_channel.h">
+      <Filter>Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="media_messages.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="channel.cpp">
+      <Filter>Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="json_message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="google_cast_message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="cast_message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_messages.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_channel.cpp">
+      <Filter>Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="heartbeat_channel.cpp">
+      <Filter>Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="receiver_channel.cpp">
+      <Filter>Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="sender_application.cpp">
+      <Filter>Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="media_channel.cpp">
+      <Filter>Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="media_messages.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libchromecast", "libchromecast\libchromecast.vcxproj", "{4CB82C75-33A0-4A34-912B-2E42054F33E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chormecast-sample", "chormecast-sample\chormecast-sample.vcxproj", "{E69F319C-A0F6-4097-B84F-D6722672A5C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CB82C75-33A0-4A34-912B-2E42054F33E9} = {4CB82C75-33A0-4A34-912B-2E42054F33E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB82C75-33A0-4A34-912B-2E42054F33E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CB82C75-33A0-4A34-912B-2E42054F33E9}.Debug|Win32.Build.0 = Debug|Win32
+		{4CB82C75-33A0-4A34-912B-2E42054F33E9}.Release|Win32.ActiveCfg = Release|Win32
+		{4CB82C75-33A0-4A34-912B-2E42054F33E9}.Release|Win32.Build.0 = Release|Win32
+		{E69F319C-A0F6-4097-B84F-D6722672A5C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E69F319C-A0F6-4097-B84F-D6722672A5C3}.Debug|Win32.Build.0 = Debug|Win32
+		{E69F319C-A0F6-4097-B84F-D6722672A5C3}.Release|Win32.ActiveCfg = Release|Win32
+		{E69F319C-A0F6-4097-B84F-D6722672A5C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
